@@ -34,7 +34,7 @@ e.g. ``[entity](entity name)``.
     - what is my balance <!-- no entity -->
     - how much do I have on my [savings](source_account) <!-- entity "source_account" has value "savings" -->
     - how much do I have on my [savings account](source_account:savings) <!-- synonyms, method 1-->
-    - Could I pay in [yen](currency)?  <!-- entity matched by lookup table -->
+    - Could I pay in [yen](currencies)?  <!-- entity matched by lookup table -->
 
     ## intent:greet
     - hey
